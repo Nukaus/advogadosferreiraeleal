@@ -3,33 +3,35 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --font-principal: "Poppins", sans-serif;
 }
 
 body{
-    background-color: black;
+    background-color: #33393F;
     color: white;
+    font-family: var(--font-principal);
 }
 
-section.top{
+section#top{
     display: flex;
-    flex-direction: column;
-    padding: 10px;
+    justify-content: space-between;
 }
 
-.bottom {
-    display: flex;
-    gap: 20px;
-  }
 
 #logo{
-    height: 150px;
     padding: 20px;
 }
 
 #logo > img{
     width: 100px;
     height: 100px;
+}
+
+.logo_principal > img{
+    width: 500px;
 }
 
 #valores{
@@ -42,8 +44,9 @@ section.top{
 
 .whatsapp-btn{
     font-size: 20px;
-    background-color: #25d366;
+    background-color: #00E705;
     color: white;
     padding: 10px 16px;
     border-radius: 30px;
+    text-decoration: none;
 }
