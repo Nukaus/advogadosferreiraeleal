@@ -17,12 +17,13 @@ body{
 
 #top{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
+#logo {
+    width: 100%;
 
-#logo{
-    padding: 20px;
 }
 
 #logo > img{
@@ -30,18 +31,13 @@ body{
     height: 100px;
 }
 
-.logo_principal > img{
+#valores{
+    width: 600px;
+}
+
+#logo_principal > Img{
     width: 500px;
 }
-
-#valores{
-    width: 700px;
-}
-
-#valores > h1{
-    line-height: 50px;
-}
-
 .whatsapp-btn{
     font-size: 20px;
     background-color: #00E705;
