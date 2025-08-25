@@ -56,6 +56,22 @@ body{
     text-decoration: none;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+#logo_footer > img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
     #top {
         flex-direction: column;
