@@ -98,7 +98,8 @@ footer{
 
     .whatsapp-btn{
         display: inline-block;
-        width: 440px;
+        width: 100%;
+        max-width: 500px;
         text-align: center;
         justify-content: center;
     }
