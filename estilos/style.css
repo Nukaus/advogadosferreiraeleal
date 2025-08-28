@@ -15,6 +15,10 @@ body{
     font-family: var(--font-principal);
 }
 
+body h1{
+    color: #1E90FF;
+}
+
 #top{
     display: flex;
     gap: 20px;
@@ -40,6 +44,10 @@ body{
     max-width: 600px;
 }
 
+#valores > p{
+    color: #F5F5F5;
+}
+
 #logo_proincipal{
     width: 100%;
     max-width: 500px;
@@ -63,8 +71,37 @@ body{
     
 }
 
+#trabalhos{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.servicos{
+    
+    width: 450px;
+    height: 168px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #282a2c;
+    
+    
+}
+
+#cta{
+    margin-top: 20px;
+    background-color: #1E90FF;
+    color: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
 footer{
     display: flex;
+    margin-top: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -78,6 +115,16 @@ footer{
     height: auto;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     body{
