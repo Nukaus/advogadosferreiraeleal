@@ -81,11 +81,11 @@ footer{
 
 @media (max-width: 768px) {
     body{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     body h1{
-        font-size: 25px;
+        font-size: 28px;
     }
 
     #top {
