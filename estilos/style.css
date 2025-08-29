@@ -179,12 +179,6 @@ footer{
 
 
 
-
-
-
-
-
-
 @media (max-width: 768px) {
     body{
         font-size: 15px;
@@ -208,6 +202,10 @@ footer{
         max-width: 90%;
         margin: 0 25.25px;
 
+    }
+
+    #trabalhos{
+        gap: 0;
     }
 
     .whatsapp-btn{
